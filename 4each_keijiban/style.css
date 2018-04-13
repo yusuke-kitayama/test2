@@ -1,0 +1,139 @@
+header .menue{
+    width:100%;
+    height:60px;
+    position:absolute;
+    top::0;
+    left:0;
+    background-color: black;
+    color:white;
+}
+
+.logo img{
+    width:350px;
+}
+
+header .menue ul li{
+    float:left;
+    list-style: none;
+    text-align:center;
+    padding-left:15px;
+    padding-right:80px;
+    line-height: 30px;
+    font-size:18px;
+} 
+header a{
+    color:white;
+}
+
+main{
+    clear:both;
+}
+
+.main-container{
+    width:95%;
+    margin:0 auto;
+    margin-top:80px;
+}
+
+.main-container h2{
+    border-left:3px solid black;
+    border-bottom:2px solid black;
+    padding-left:5px;
+}
+
+.maintext{
+    float:left;
+    width:66%;
+    margin-bottom:50px;
+}
+
+form{
+    margin: 0 auto;
+    padding-left:10px;
+    padding-bottom:30px;
+    background-color:#fbfbfb;
+    border:3px #ebebeb solid;
+    border-radius: 10px;
+}
+
+form h3{ 
+    margin: 0 auto;
+    margin-top:30px;
+    margin-bottom:20px;
+    border-left:4px red solid;
+    margin-left:15px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    font-size:20px;
+}
+
+form div,h3{
+padding:15px;
+}
+
+
+.text, textarea{
+border:1px solid #dfdfdf;
+padding:5px;
+color: #999;
+background: #fff;
+}
+
+
+.kiji{
+    margin:0 auto;
+    padding-left:20px;
+    padding-bottom:20px;
+    background-color:#fbfbfb;
+    border:3px #ebebeb solid;
+    border-radius: 10px;
+}
+.kiji h3{
+    border-bottom:2px #ebebeb solid;
+    height:18px;
+    line-height:8px;
+    padding-left:0px;
+}
+.kiji .handlename{
+    font-size:15px;
+}
+
+.submit{
+border:1px solid lightgray;
+padding: 4px 10px;
+color:white;
+background-color:#bfbfbf;
+border-radius: 5px;
+border-bottom: solid 2px gray;
+}
+
+
+
+.main-container .menue{
+    float:right;
+    width:30%;
+    margin-top:6px;
+    background-color:#ECE7E7;
+    padding:10px;
+}
+
+
+.main-container .menue h3{
+    border-bottom:2px dotted black;
+}
+
+
+
+
+
+footer{
+    width:100%;
+    height:60px;
+    position:fixed;
+    bottom:0;
+    background-color:black;
+    color:white;
+    text-align:center;
+    line-height:60px;
+}
